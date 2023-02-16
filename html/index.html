@@ -16,7 +16,11 @@
             box-shadow: 0 9px #999;
             width: 15%;
         }
-        .button:hover {background-color: #3e8e41}
+
+        .button:hover {
+            background-color: #3e8e41
+        }
+
         .button:active {
             background-color: #3e8e41;
             box-shadow: 0 5px #666;
@@ -45,44 +49,96 @@
     <!-- Hakkımda Kısmı -->
     <h2>Hakkımda</h2>
     <p>Ben Muammer Aydemir, bu benim ilk ilkel html kod örneğim. GitHub Sayfam için <a
-            href="https://github.com/MuammerAydemir">Click here</a>.</p>
+            href="https://github.com/MuammerAydemir" target="_blank">Click here</a>.</p>
     <hr>
-    <!--Hobi Satırı -->
-    <h3>Hobiler</h3>
-    <ul>
-        <li>Kitap Okumak</li>
-        <li>Özgün Kod Örneği Denemek</li>
-        <li>Film İzlemek</li>
-    </ul>
+    <div>
+        <!--Hobi Satırı -->
+        <h3>Hobiler</h3>
+        <ol>
+
+            <a href="https://www.imdb.com/title/tt7366338/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=12230b0e-0e00-43ed-9e59-8d5353703cce&pf_rd_r=4K7687Z69P1HP3DHM2MZ&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=toptv&ref_=chttvtp_tt_5"
+                target="_blank">
+                <img width="100" height="200" style="margin:10px"
+                    src="https://upload.wikimedia.org/wikipedia/en/a/a7/Chernobyl_2019_Miniseries.jpg" alt="Chernobyl"
+                    title="Chernobyl" align="right">
+            </a>
+            <a href="https://www.imdb.com/title/tt0068646/?ref_=nv_sr_srsg_0" target="_blank">
+                <img width="100" height="200" style="margin:10px"
+                    src="https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+                    alt="The Godfather" title="The Godfather" align="right">
+            </a>
+            <a href="https://www.goodreads.com/book/show/23692271-sapiens?from_search=true&from_srp=true&qid=WGgjeAWQzS&rank=1"
+                target="_blank">
+                <img width="100" height="200" style="margin:10px"
+                    src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1595674533i/23692271.jpg"
+                    alt="Sapiens" title="Sapiens" align="right">
+            </a>
+            <li>Kitap Okumak
+                <ul>
+                    <li>Kozmos</li>
+                    <li><a href="https://www.goodreads.com/book/show/23692271-sapiens?from_search=true&from_srp=true&qid=WGgjeAWQzS&rank=1"
+                            target="_blank">Sapiens</a>
+                    </li>
+                    <li>Zamanın Kısa Tarihi</li>
+                </ul>
+            </li>
+            <li>Film İzlemek
+                <ul>
+                    <li><a href="https://www.imdb.com/title/tt0068646/?ref_=nv_sr_srsg_0" target="_blank">The
+                            Godfather</a></li>
+                    <li>The Shawshank Redemption</li>
+                    <li>The Lord of the Rings: The Fellowship of the Ring</li>
+                </ul>
+            </li>
+            <li>Dizi izlemek
+                <ul>
+                    <li><a href="https://www.imdb.com/title/tt7366338/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=12230b0e-0e00-43ed-9e59-8d5353703cce&pf_rd_r=4K7687Z69P1HP3DHM2MZ&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=toptv&ref_=chttvtp_tt_5"
+                            target="_blank">Chernobyl</a>
+                    </li>
+                    <li>Band of Brothers</li>
+                    <li>Rick and Morty</li>
+                </ul>
+            </li>
+            <li>Özgün Kod Örneği Denemek</li>
+        </ol>
+    </div>
+    
+        <hr>
+        <!--Programlama dilleri -->
+        <h3><strong>Diller</strong></h3>
+        <p>Şuana kadar üzerinde çalıştığım diller: </p>
+        <ol>
+            <li><b>Python</b></li>
+            <li><b>Dart</b></li>
+            <li><b>Java</b></li>
+            <li><b>C++</b></li>
+            <li><b><abbr title="Hypertext Markup Language">HTML</abbr></b></li>
+        </ol>
+    
+        <div>
+        <img src="/img/new.png" alt="LanguagePlace" usemap="#lngmap" title="Languages">
+        <p>Açıklamasına gitmek istediğiniz <em>programlama dili sembolünün</em> üzerine <strong>tıklayınız!</strong></p>
+        <map name="lngmap">
+            <area shape="circle" coords="344,379,100" href="https://tr.wikipedia.org/wiki/Python" alt="Python"
+                title="Python" target="_blank">
+            <area shape="rect" coords="10,281,163,491" href="https://tr.wikipedia.org/wiki/HTML" alt="Html" title="HTML"
+                target="_blank">
+            <area shape="rect" coords="244,15,436,260" href="https://tr.wikipedia.org/wiki/Dart_(programlama_dili)"
+                alt="Dart" title="Dart" target="_blank">
+            <area shape="rect" coords="16,16,167,258" href="https://tr.wikipedia.org/wiki/Java_(programlama_dili)"
+                alt="Java" title="Java" target="_blank">
+            <area shape="circle" coords="575,263,96" href="https://tr.wikipedia.org/wiki/C%2B%2B" alt="C++" title="C++"
+                target="_blank">
+        </map>
+    </div>
     <hr>
-    <!--Programlama dilleri -->
-    <h3><strong>Diller</strong></h3>
-    <p>Şuana kadar üzerinde çalıştığım diller: </p>
-    <ol>
-        <li><b>Python</b></li>
-        <li><b>Dart</b></li>
-        <li><b>Java</b></li>
-        <li><b>C++</b></li>
-        <li><b><abbr title="Hypertext Markup Language">HTML</abbr></b></li>
-    </ol>
-    <br>
-    <img src="/img/new.png" alt="LanguagePlace" usemap="#lngmap" title="Languages">
-    <map name="lngmap">
-        <area shape="circle" coords="344,379,100" href="https://tr.wikipedia.org/wiki/Python" alt="Python"
-            title="Python">
-        <area shape="rect" coords="10,281,163,491" href="https://tr.wikipedia.org/wiki/HTML" alt="Html" title="HTML">
-        <area shape="rect" coords="244,15,436,260" href="https://tr.wikipedia.org/wiki/Dart_(programlama_dili)"
-            alt="Dart" title="Dart">
-        <area shape="rect" coords="16,16,167,258" href="https://tr.wikipedia.org/wiki/Java_(programlama_dili)"
-            alt="Java" title="Java">
-        <area shape="circle" coords="575,263,96" href="https://tr.wikipedia.org/wiki/C%2B%2B" alt="C++" title="C++">
-    </map>
-    <hr>
-    <a href="https://app.patika.dev/muammeraydemir">
-        <img width="300" height="200"
-            src="https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-            alt="Kodluyoruz Profil" title="MY-PATIKA-PROFILE">
-    </a><br>
+    <div style="text-align: center;">
+        <a href="https://app.patika.dev/muammeraydemir" target="_blank">
+            <img width="300" height="200"
+                src="https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Kodluyoruz Profil" title="MY-PATIKA-PROFILE" align="center-1">
+        </a>
+    </div>
     <!-- iframe ama çalışmadı -->
     <!-- <iframe src="https://www.openstreetmap.org/#map=16/39.9265/32.8376" frameborder="1" width="300" height="200"></iframe><br> -->
     <hr>
