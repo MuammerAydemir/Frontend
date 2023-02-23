@@ -1,0 +1,17 @@
+.centerr{
+    text-align: center;
+}
+h1,h2,h3{
+    color: #AD7BE9;
+}
+h4,h5,h6{
+    color: #3E54AC
+}
+.bold{
+    font-weight: bold;
+}
+body{
+    font-size: large;
+    font-family: monospace;
+    background-color: #EEEEEE;
+}
